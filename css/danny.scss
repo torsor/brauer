@@ -1,0 +1,56 @@
+
+////////////////////////////////////////////////////////////
+// global tweaks, definitions
+////////////////////////////////////////////////////////////
+
+// the basic color choice! 
+.well {
+  background-color: #e5e0f9;
+}
+
+
+
+@font-face {font-family: 'exo'; src: url('fonts/Exo-Light.ttf');}
+@font-face {font-family: 'exobold'; src: url('fonts/Exo-Medium.ttf');}
+* { font-family: 'exo'; color: black;}
+
+//$blocky_color: #d0d7df;
+$blocky_color: blue;
+$chicklet_color: #3d3d58;
+
+
+////////////////////////////////////////////////////////////
+// layout
+////////////////////////////////////////////////////////////
+
+div.header-row {margin-top: 30px;}
+
+////////////////////////////////////////////////////////////
+// site title description and picture
+////////////////////////////////////////////////////////////
+
+img#portrait {
+	max-height: 150px; 
+}
+
+// footer pic
+
+img#actionpic {
+	max-height: 240px; 
+}
+
+.nav a {background-color: $blocky_color;}
+
+
+////////////////////////////////////////////////////////////
+// icons in footer
+////////////////////////////////////////////////////////////
+
+.github-icon-svg,
+.twitter-icon-svg,
+.soundcloud-icon-svg {
+  display: inline-block;
+  position: relative; width: 16px; height: 16px; top: 3px;
+}
+
+
