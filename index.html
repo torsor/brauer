@@ -1,6 +1,15 @@
 ---
 layout: default
 ---
+<nav class="navbar navbar-default navbar-light bg-light inverted">
+  <div class="container-fluid">
+    <ul class="nav navbar-nav">
+      <li><a href="{{ site.baseurl }}/docs/Important-Visitor-Information.pdf">Staying at Pingree Park</a></li>
+      <li><a href="https://www.groupcarpool.com/t/q7via9">Group Carpool</a></li>
+      <li><a href="https://goo.gl/forms/7kZGCHe6KYzOnt9q1">Registration</a></li>
+    </ul>
+  </div>
+</nav>
 
 <div class="row well">
   <div class="col-md-12" style="padding-bottom: 10px;">
@@ -26,6 +35,11 @@ layout: default
   </div>
 </div>
 
+<div class="row well">
+  <div class="col-md-12" style="padding-bottom: 10px;">
+  {% include carpool.html %}
+  </div>
+</div>
 
 <div class="row well">
   <div class="col-md-12" style="padding-bottom: 10px;">
